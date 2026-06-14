@@ -1,4 +1,3 @@
-process.env.PUPPETEER_CACHE_DIR = "/opt/render/.cache/puppeteer";
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const { scrapeList, scrapeDramaDetails } = require("./lib/mdl-scraper");
 
