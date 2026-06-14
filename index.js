@@ -144,7 +144,7 @@ builder.defineCatalogHandler(async ({ type, id, extra, config }) => {
             {
                 name: "MyDramaList",
                 category: "Links",
-                url: `[mydramalist.com](https://mydramalist.com/${drama.mdlId})`
+                url: `https://mydramalist.com/${drama.mdlId}`
             }
         ]
     }));
@@ -182,7 +182,7 @@ builder.defineMetaHandler(async ({ type, id }) => {
                 {
                     name: "MyDramaList",
                     category: "Links",
-                    url: `[mydramalist.com](https://mydramalist.com/${mdlId})`
+                    url: `https://mydramalist.com/${mdlId}`
                 }
             ],
             behaviorHints: {
@@ -215,7 +215,7 @@ MyDramaList Stremio Addon running at:
 To install in Stremio, add this URL to your addons.
 
 Configure your lists by adding URLs like:
-  - [mydramalist.com](https://mydramalist.com/dramalist/username)
-  - [mydramalist.com](https://mydramalist.com/list/XXXXXX)
-  - [mydramalist.com](https://mydramalist.com/profile/username/watchlist)
+  - https://mydramalist.com/dramalist/username
+  - https://mydramalist.com/list/XXXXXX)
+  - https://mydramalist.com/profile/username/watchlist
 `);
