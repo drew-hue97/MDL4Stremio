@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Stremio addon for MyDramaList catalogues",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "postinstall": "npx puppeteer browsers install chrome"
-  },
+"scripts": {
+  "start": "node index.js",
+  "postinstall": "npx puppeteer browsers install chrome --path=/opt/render/.cache/puppeteer"
+}
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
     "axios": "^1.6.0",
