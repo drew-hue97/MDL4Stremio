@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
